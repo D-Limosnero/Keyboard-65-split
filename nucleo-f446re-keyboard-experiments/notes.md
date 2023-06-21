@@ -12,3 +12,4 @@ QUESTION: can I use these methods over other protocols besides UART?
 
 To enable floating point support over UART, put  add "-u_printf_float" flag under Project->Properties->C/C++ Build->Settings->MCU-GCC-Linker->Miscellaneous->Other Flags
 
+Pinout: https://doc.riot-os.org/group__boards__nucleo-f303re.html

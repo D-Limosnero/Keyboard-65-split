@@ -141,24 +141,12 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_7))
-	  {
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-	  }
-	  else
-	  {
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-	  }
 
-/*************************** Printf() debugging Example ******************************/
-
-//	  // floats not supported by default,
-//	  // add "-u_printf_float" flag under Project->Properties->C/C++ Build->Settings->MCU-GCC-Linker->Miscellaneous
-//	  printf("hello_world %f\r\n", value);
-////	  value++;
-//	  HAL_Delay(200);
-
-/**************************** Keyboard Device Example *****************************/
+	  // floats not supported by default,
+	  // add "-u_printf_float" flag under Project->Properties->C/C++ Build->Settings->MCU-GCC-Linker->Miscellaneous
+	  printf("hello_world %f\r\n", value);
+//	  value++;
+	  HAL_Delay(200);
 
 //	  keyboardhid.KEYCODE1 = 0x04; // Send an A
 //	  USBD_HID_SendReport(&hUsbDeviceFS, &keyboardhid, sizeof(keyboardhid));
@@ -269,9 +257,6 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, GPIO_PIN_SET);
-
   /*Configure GPIO pin : B1_Pin */
   GPIO_InitStruct.Pin = B1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
@@ -285,21 +270,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : Col0_Pin */
-  GPIO_InitStruct.Pin = Col0_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(Col0_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : PC9 */
-  GPIO_InitStruct.Pin = GPIO_PIN_9;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : Row0_Pin Col1_Pin Row1_Pin */
-  GPIO_InitStruct.Pin = Row0_Pin|Col1_Pin|Row1_Pin;
+  /*Configure GPIO pins : PA7 PA8 PA9 PA10 */
+  GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
