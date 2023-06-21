@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;nucleo-f446re-keyboard&apos;" deleteContents="true" description="Delete resource &apos;nucleo-f446re-keyboard&apos;" element1="/nucleo-f446re-keyboard" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1687365986385"/>
+</session>
