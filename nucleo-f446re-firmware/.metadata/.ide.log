@@ -1440,3 +1440,922 @@
 2023-06-21 12:18:14,188 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
 2023-06-21 12:29:36,481 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: connect timed out
 2023-06-21 12:29:38,488 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: connect timed out
+2023-06-21 13:48:22,041 [INFO] Gpio:273 - dependency for GPIO [I2C1, USB_OTG_FS]
+2023-06-21 13:49:43,802 [INFO] Gpio:273 - dependency for GPIO [I2C1, USB_OTG_FS]
+2023-06-21 13:50:01,930 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 662407920 Bytes (857735168)
+2023-06-21 13:50:06,254 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 696434664 Bytes (857735168)
+2023-06-21 13:50:06,898 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 424239424 Bytes (857735168)
+2023-06-21 13:50:07,045 [INFO] ProjectBuilder:2308 - IP not ready for code generation: Clock
+2023-06-21 13:50:09,548 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 13:50:09,550 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-06-21 13:50:09,550 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 13:50:09,550 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 13:50:09,550 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 13:50:09,551 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 13:50:09,551 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-21 13:50:09,551 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-21 13:50:09,660 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\MXTmpFiles\license.tmp_save
+2023-06-21 13:50:09,707 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\MXTmpFiles\license.tmp
+2023-06-21 13:50:09,723 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\MXTmpFiles\gpio.tmp_save
+2023-06-21 13:50:09,771 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\MXTmpFiles\gpio.tmp
+2023-06-21 13:50:09,802 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 13:50:09,819 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Src\stm32f4xx_it.c_save
+2023-06-21 13:50:09,912 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Src\stm32f4xx_it.c
+2023-06-21 13:50:09,927 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 13:50:09,975 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Inc\stm32f4xx_it.h
+2023-06-21 13:50:09,990 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 13:50:10,069 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 13:50:10,069 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\MXTmpFiles\system.tmp_save
+2023-06-21 13:50:10,116 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\MXTmpFiles\system.tmp
+2023-06-21 13:50:10,116 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 13:50:10,167 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 13:50:10,186 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 13:50:10,186 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-06-21 13:50:10,186 [WARN] CodeGenerator:3754 - IP not found : null
+2023-06-21 13:50:10,196 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Inc\main.h_save
+2023-06-21 13:50:10,245 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Inc\main.h
+2023-06-21 13:50:10,245 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Src\main.c_save
+2023-06-21 13:50:10,379 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-firmware\stm32f446re-keyboard\Core\Src\main.c
+2023-06-21 13:50:10,844 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 158mS.
+2023-06-21 13:50:10,844 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 13:50:11,001 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 13:50:11,896 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1052mS.
+2023-06-21 13:50:11,896 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 13:50:11,905 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 2mS.
+2023-06-21 13:50:55,112 [INFO] MainUpdater:2854 - connection check result : 10
+2023-06-21 13:50:55,112 [INFO] MainUpdater:2854 - connection check result : 10
+2023-06-21 13:50:55,156 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-06-21 13:50:55,156 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-06-21 13:50:55,161 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-06-21 13:50:55,161 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-06-21 13:50:55,161 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-06-21 13:50:55,161 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-06-21 13:50:55,172 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-06-21 13:50:55,174 [WARN] MainPanel:257 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-06-21 13:50:55,183 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 474371816 Bytes (864026624)
+2023-06-21 13:50:55,183 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-06-21 13:50:55,183 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.81
+2023-06-21 13:50:55,183 [INFO] OpenFileManager:308 - Change cursor
+2023-06-21 13:50:55,196 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-06-21 13:50:55,199 [INFO] Mcu:1937 - Initializing MCU STM32F446R(C-E)Tx STM32F446RETx STM32F446RET6
+2023-06-21 13:50:56,019 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-06-21 13:50:56,271 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-06-21 13:50:56,271 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-06-21 13:50:56,271 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-06-21 13:50:56,271 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-06-21 13:50:56,271 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-06-21 13:50:56,299 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-06-21 13:50:56,526 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-06-21 13:50:56,537 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (48MHZClocksFreq_Value)
+2023-06-21 13:50:56,537 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (EthernetFreq_Value)
+2023-06-21 13:50:56,542 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2023-06-21 13:50:56,542 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-06-21 13:50:56,542 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2SClocksFreq_Value)
+2023-06-21 13:50:56,542 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOInputMFreq_Value)
+2023-06-21 13:50:56,542 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2S)
+2023-06-21 13:50:56,766 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 678086248 Bytes (864026624)
+2023-06-21 13:50:56,796 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-06-21 13:50:56,796 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-06-21 13:50:56,796 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.4
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-06-21 13:50:56,801 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-06-21 13:50:56,923 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-06-21 13:50:56,923 [INFO] PinOutPanel:1499 - setPackage(STM32F446RETx,LQFP64)
+2023-06-21 13:50:57,125 [INFO] UtilMem:75 - Before build in PCC Used Memory: 342804496 Bytes (864026624)
+2023-06-21 13:50:57,335 [INFO] UtilMem:75 - After build in PCC Used Memory: 391565328 Bytes (864026624)
+2023-06-21 13:50:57,349 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,365 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-06-21 13:50:57,379 [INFO] ApiDbMcu:507 - Load IP Config File for PDM2PCM
+2023-06-21 13:50:57,411 [INFO] CADModel:165 - CPN selected for project levelSTM32F446RET6
+2023-06-21 13:50:57,411 [INFO] CADModel:114 - Register for checkConnection events
+2023-06-21 13:50:57,492 [INFO] OpenFileManager:328 - Restore cursor
+2023-06-21 14:02:40,220 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 439178856 Bytes (864026624)
+2023-06-21 14:02:42,215 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 465393256 Bytes (864026624)
+2023-06-21 14:02:42,624 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 499996264 Bytes (864026624)
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:02:42,762 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:02:42,768 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:02:42,884 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:02:42,937 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:02:42,945 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:02:42,997 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:02:43,024 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:02:43,040 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:02:43,040 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:02:43,124 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:02:43,124 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:02:43,166 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:02:43,166 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:02:43,226 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:02:43,229 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:02:43,288 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:02:43,308 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:02:43,308 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:02:43,324 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:02:43,359 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:02:43,371 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:02:43,416 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:02:43,419 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:02:43,468 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:02:43,471 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:02:43,527 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:02:43,576 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:02:43,576 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:02:43,617 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:02:43,624 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:02:43,624 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:02:43,639 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:02:43,655 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:02:43,710 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:02:43,718 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:02:43,764 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:02:43,770 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:02:43,820 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:02:43,821 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:02:43,880 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:02:43,883 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:02:43,931 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:02:43,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:02:43,986 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:02:44,000 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:02:44,050 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:02:44,050 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:02:44,097 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:02:44,114 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:02:44,175 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:02:44,175 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:02:44,224 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:02:44,229 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:02:44,270 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:02:44,286 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:02:44,327 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:02:44,365 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:02:44,383 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:02:44,453 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:02:45,011 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 236mS.
+2023-06-21 14:02:45,017 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:02:45,235 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:02:45,235 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-06-21 14:02:45,248 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-06-21 14:02:45,250 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-06-21 14:02:45,250 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-06-21 14:02:45,250 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-06-21 14:02:46,274 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1257mS.
+2023-06-21 14:02:46,274 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:02:46,282 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:24:35,414 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2, USB_OTG_FS, USB_OTG_HS]
+2023-06-21 14:30:11,079 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2, USB_OTG_FS, USB_OTG_HS]
+2023-06-21 14:30:11,108 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-06-21 14:30:11,215 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2, USB_OTG_FS, USB_OTG_HS]
+2023-06-21 14:30:11,244 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-06-21 14:32:19,479 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 311171136 Bytes (864026624)
+2023-06-21 14:32:21,402 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 351017024 Bytes (864026624)
+2023-06-21 14:32:21,823 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 388243520 Bytes (864026624)
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:32:21,961 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:32:21,969 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:32:22,076 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:32:22,135 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:32:22,140 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:32:22,199 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:32:22,220 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:32:22,235 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:32:22,242 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:32:22,282 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:32:22,298 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:32:22,342 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:32:22,345 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:32:22,397 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:32:22,397 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:32:22,456 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:32:22,475 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:32:22,475 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:32:22,490 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:32:22,535 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:32:22,539 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:32:22,612 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:32:22,619 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:32:22,695 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:32:22,695 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:32:22,757 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:32:22,788 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:32:22,806 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:32:22,820 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:32:22,824 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:32:22,837 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:32:22,842 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:32:22,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:32:22,913 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:32:22,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:32:22,965 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:32:22,965 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:32:23,016 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:32:23,027 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:32:23,086 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:32:23,092 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:32:23,137 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:32:23,141 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:32:23,184 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:32:23,204 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:32:23,294 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:32:23,309 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:32:23,341 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:32:23,364 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:32:23,428 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:32:23,428 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:32:23,466 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:32:23,484 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:32:23,532 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:32:23,546 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:32:23,557 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:32:23,627 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:32:23,631 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:32:23,737 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:32:24,194 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 185mS.
+2023-06-21 14:32:24,199 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:32:24,337 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:32:25,383 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1184mS.
+2023-06-21 14:32:25,383 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:32:25,394 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:36:18,034 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 367296528 Bytes (890241024)
+2023-06-21 14:36:19,809 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 411827768 Bytes (890241024)
+2023-06-21 14:36:20,235 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 444891152 Bytes (890241024)
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:36:20,385 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:36:20,392 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:36:20,543 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:36:20,598 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:36:20,613 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:36:20,660 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:36:20,671 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:36:20,687 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:36:20,687 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:36:20,746 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:36:20,750 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:36:20,781 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:36:20,781 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:36:20,844 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:36:20,847 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:36:20,903 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:36:20,919 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:36:20,929 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:36:20,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:36:20,971 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:36:20,971 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:36:21,025 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:36:21,031 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:36:21,083 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:36:21,085 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:36:21,134 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:36:21,176 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:36:21,176 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:36:21,191 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:36:21,191 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:36:21,191 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:36:21,209 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:36:21,247 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:36:21,302 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:36:21,318 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:36:21,365 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:36:21,365 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:36:21,416 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:36:21,416 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:36:21,477 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:36:21,477 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:36:21,523 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:36:21,539 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:36:21,589 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:36:21,602 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:36:21,650 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:36:21,650 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:36:21,700 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:36:21,711 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:36:21,760 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:36:21,776 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:36:21,810 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:36:21,824 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:36:21,871 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:36:21,887 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:36:21,887 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:36:21,934 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:36:21,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:36:22,013 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:36:22,501 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 174mS.
+2023-06-21 14:36:22,501 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:36:22,660 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:36:23,592 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1091mS.
+2023-06-21 14:36:23,592 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:36:23,602 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:37:18,407 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 554419560 Bytes (908066816)
+2023-06-21 14:37:19,709 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 588500328 Bytes (908066816)
+2023-06-21 14:37:20,153 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 628868456 Bytes (908066816)
+2023-06-21 14:37:20,327 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:37:20,327 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:37:20,328 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:37:20,328 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:37:20,328 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:37:20,328 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:37:20,328 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:37:20,328 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:37:20,329 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:37:20,493 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:37:20,542 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:37:20,545 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:37:20,588 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:37:20,619 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:37:20,624 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:37:20,635 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:37:20,686 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:37:20,686 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:37:20,730 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:37:20,730 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:37:20,778 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:37:20,778 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:37:20,856 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:37:20,889 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:37:20,889 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:37:20,902 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:37:20,941 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:37:20,941 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:37:20,984 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:37:20,984 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:37:21,054 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:37:21,054 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:37:21,110 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:37:21,141 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:37:21,159 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:37:21,160 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:37:21,160 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:37:21,174 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:37:21,174 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:37:21,174 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:37:21,236 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:37:21,241 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:37:21,286 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:37:21,286 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:37:21,341 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:37:21,341 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:37:21,394 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:37:21,394 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:37:21,442 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:37:21,457 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:37:21,507 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:37:21,507 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:37:21,568 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:37:21,568 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:37:21,615 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:37:21,615 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:37:21,694 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:37:21,694 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:37:21,773 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:37:21,773 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:37:21,836 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:37:21,842 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:37:21,852 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:37:21,899 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:37:21,899 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:37:21,978 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:37:22,403 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 171mS.
+2023-06-21 14:37:22,403 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:37:22,665 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:37:23,540 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1135mS.
+2023-06-21 14:37:23,540 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:37:23,543 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:47:04,598 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 449386120 Bytes (908066816)
+2023-06-21 14:47:06,048 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 483856504 Bytes (908066816)
+2023-06-21 14:47:06,460 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 520867176 Bytes (908066816)
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:47:06,602 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:47:06,602 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:47:06,708 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:47:06,748 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:47:06,764 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:47:06,810 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:47:06,827 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:47:06,827 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:47:06,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:47:06,897 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:47:06,897 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:47:06,937 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:47:06,937 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:47:07,047 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:47:07,049 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:47:07,100 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:47:07,113 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:47:07,113 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:47:07,134 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:47:07,176 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:47:07,179 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:47:07,222 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:47:07,227 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:47:07,276 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:47:07,279 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:47:07,335 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:47:07,375 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:47:07,383 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:47:07,383 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:47:07,383 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:47:07,383 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:47:07,398 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:47:07,408 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:47:07,448 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:47:07,463 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:47:07,498 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:47:07,513 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:47:07,559 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:47:07,559 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:47:07,621 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:47:07,623 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:47:07,673 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:47:07,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:47:07,718 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:47:07,732 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:47:07,781 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:47:07,796 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:47:07,843 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:47:07,848 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:47:07,910 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:47:07,910 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:47:07,956 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:47:07,956 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:47:08,001 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:47:08,023 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:47:08,033 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:47:08,080 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:47:08,080 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:47:08,148 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:47:08,615 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 167mS.
+2023-06-21 14:47:08,617 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:47:08,763 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:47:09,804 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1187mS.
+2023-06-21 14:47:09,804 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:47:09,804 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:48:42,264 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 332478904 Bytes (919601152)
+2023-06-21 14:48:43,623 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 326885432 Bytes (919601152)
+2023-06-21 14:48:44,067 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 365472064 Bytes (919601152)
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:48:44,216 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:48:44,216 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:48:44,373 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:48:44,418 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:48:44,432 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:48:44,467 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:48:44,493 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:48:44,499 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:48:44,512 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:48:44,554 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:48:44,556 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:48:44,593 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:48:44,593 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:48:44,641 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:48:44,654 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:48:44,709 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:48:44,719 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:48:44,719 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:48:44,735 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:48:44,767 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:48:44,767 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:48:44,816 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:48:44,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:48:44,883 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:48:44,888 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:48:44,940 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:48:45,021 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:48:45,021 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:48:45,035 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:48:45,039 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:48:45,039 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:48:45,039 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:48:45,056 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:48:45,099 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:48:45,099 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:48:45,157 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:48:45,163 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:48:45,213 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:48:45,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:48:45,260 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:48:45,274 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:48:45,322 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:48:45,322 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:48:45,369 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:48:45,384 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:48:45,433 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:48:45,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:48:45,480 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:48:45,495 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:48:45,559 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:48:45,559 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:48:45,590 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:48:45,606 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:48:45,657 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:48:45,669 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:48:45,669 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:48:45,716 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:48:45,732 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:48:45,800 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:48:46,268 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 157mS.
+2023-06-21 14:48:46,284 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:48:46,425 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:48:47,409 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1125mS.
+2023-06-21 14:48:47,409 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:48:47,422 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:49:31,171 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 517012192 Bytes (919601152)
+2023-06-21 14:49:32,333 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 556331744 Bytes (919601152)
+2023-06-21 14:49:32,757 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 588837600 Bytes (919601152)
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 14:49:32,910 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 14:49:32,910 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 14:49:33,067 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 14:49:33,100 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 14:49:33,116 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 14:49:33,163 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 14:49:33,179 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:49:33,194 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:49:33,209 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 14:49:33,262 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 14:49:33,265 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 14:49:33,305 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 14:49:33,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 14:49:33,360 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 14:49:33,363 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 14:49:33,415 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 14:49:33,431 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:49:33,439 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:49:33,445 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 14:49:33,486 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 14:49:33,489 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 14:49:33,528 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 14:49:33,533 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 14:49:33,580 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 14:49:33,583 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 14:49:33,636 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 14:49:33,718 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:49:33,722 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 14:49:33,734 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:49:33,736 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:49:33,738 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:49:33,738 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 14:49:33,749 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 14:49:33,800 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 14:49:33,805 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 14:49:33,843 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 14:49:33,856 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 14:49:33,900 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 14:49:33,906 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 14:49:33,959 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 14:49:33,965 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 14:49:34,010 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 14:49:34,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 14:49:34,063 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 14:49:34,077 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 14:49:34,124 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 14:49:34,129 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 14:49:34,159 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 14:49:34,184 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 14:49:34,242 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 14:49:34,248 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 14:49:34,291 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 14:49:34,300 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 14:49:34,349 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 14:49:34,352 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 14:49:34,365 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 14:49:34,418 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 14:49:34,421 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 14:49:34,480 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 14:49:34,969 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 175mS.
+2023-06-21 14:49:34,969 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 14:49:35,123 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 14:49:36,038 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1069mS.
+2023-06-21 14:49:36,038 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 14:49:36,038 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 15:00:01,749 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 429222768 Bytes (919601152)
+2023-06-21 15:00:03,188 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 455437168 Bytes (919601152)
+2023-06-21 15:00:03,657 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 493185896 Bytes (919601152)
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 15:00:03,831 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 15:00:03,832 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 15:00:03,988 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 15:00:04,028 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 15:00:04,042 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 15:00:04,091 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 15:00:04,105 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:00:04,121 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:00:04,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 15:00:04,169 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 15:00:04,173 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 15:00:04,202 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 15:00:04,218 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 15:00:04,266 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 15:00:04,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 15:00:04,311 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 15:00:04,329 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:00:04,343 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:00:04,353 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 15:00:04,391 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 15:00:04,391 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 15:00:04,438 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 15:00:04,438 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 15:00:04,504 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 15:00:04,504 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 15:00:04,554 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 15:00:04,598 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:00:04,598 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:00:04,615 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:00:04,615 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:00:04,615 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:00:04,615 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:00:04,630 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 15:00:04,679 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 15:00:04,679 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 15:00:04,735 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 15:00:04,738 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 15:00:04,829 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 15:00:04,835 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 15:00:04,889 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 15:00:04,889 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 15:00:04,936 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 15:00:04,936 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 15:00:04,993 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 15:00:04,998 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 15:00:05,050 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 15:00:05,060 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 15:00:05,105 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 15:00:05,111 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 15:00:05,170 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 15:00:05,170 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 15:00:05,217 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 15:00:05,233 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 15:00:05,280 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 15:00:05,290 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 15:00:05,306 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 15:00:05,345 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 15:00:05,359 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 15:00:05,423 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 15:00:05,928 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 189mS.
+2023-06-21 15:00:05,944 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 15:00:06,091 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 15:00:07,117 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1173mS.
+2023-06-21 15:00:07,117 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 15:00:07,154 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 15:04:20,490 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 599706240 Bytes (953155584)
+2023-06-21 15:04:22,145 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 639552128 Bytes (953155584)
+2023-06-21 15:04:22,569 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 677823104 Bytes (953155584)
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_HS
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-06-21 15:04:22,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-21 15:04:22,747 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-21 15:04:22,910 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp_save
+2023-06-21 15:04:22,964 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\license.tmp
+2023-06-21 15:04:22,969 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp_save
+2023-06-21 15:04:23,023 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\gpio.tmp
+2023-06-21 15:04:23,031 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:04:23,047 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:04:23,047 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2023-06-21 15:04:23,097 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_vars.tmp
+2023-06-21 15:04:23,101 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2023-06-21 15:04:23,141 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_inc.tmp
+2023-06-21 15:04:23,141 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2023-06-21 15:04:23,189 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2023-06-21 15:04:23,189 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2023-06-21 15:04:23,247 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_hs_Msp.tmp
+2023-06-21 15:04:23,263 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:04:23,269 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:04:23,269 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-21 15:04:23,318 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-21 15:04:23,318 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-21 15:04:23,355 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-21 15:04:23,366 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-21 15:04:23,412 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-21 15:04:23,412 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-21 15:04:23,459 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-21 15:04:23,507 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:04:23,511 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-21 15:04:23,511 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:04:23,524 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:04:23,527 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:04:23,527 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-06-21 15:04:23,539 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c_save
+2023-06-21 15:04:23,587 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.c
+2023-06-21 15:04:23,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h_save
+2023-06-21 15:04:23,660 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usb_device.h
+2023-06-21 15:04:23,669 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h_save
+2023-06-21 15:04:23,734 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.h
+2023-06-21 15:04:23,734 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c_save
+2023-06-21 15:04:23,800 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\Target\usbd_conf.c
+2023-06-21 15:04:23,800 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h_save
+2023-06-21 15:04:23,845 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.h
+2023-06-21 15:04:23,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c_save
+2023-06-21 15:04:23,893 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\USB_DEVICE\App\usbd_desc.c
+2023-06-21 15:04:23,911 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c_save
+2023-06-21 15:04:23,959 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_it.c
+2023-06-21 15:04:23,959 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h_save
+2023-06-21 15:04:24,011 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_it.h
+2023-06-21 15:04:24,021 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-21 15:04:24,083 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\stm32f4xx_hal_msp.c
+2023-06-21 15:04:24,084 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp_save
+2023-06-21 15:04:24,116 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\MXTmpFiles\system.tmp
+2023-06-21 15:04:24,130 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-21 15:04:24,177 [INFO] CodeEngine:335 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-21 15:04:24,192 [WARN] IPConfigManager:2937 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2023-06-21 15:04:24,192 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h_save
+2023-06-21 15:04:24,240 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Inc\main.h
+2023-06-21 15:04:24,240 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c_save
+2023-06-21 15:04:24,319 [INFO] CodeEngine:279 - Generated code: C:\Users\dean\Documents\GitHub\Keyboard-65-split\nucleo-f446re-keyboard-experiments\Core\Src\main.c
+2023-06-21 15:04:24,829 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 194mS.
+2023-06-21 15:04:24,842 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-21 15:04:24,982 [INFO] ConfigFileManager:1483 - The Die is : DIE421
+2023-06-21 15:04:25,915 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1073mS.
+2023-06-21 15:04:25,915 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-21 15:04:25,915 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
